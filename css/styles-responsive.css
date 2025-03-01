@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+  .logo {
+    width: 40%; /* Reducir tamaño del logo */
+    margin-left: 10px; /* Agregar margen */
+  }
+}
+
+.carousel img {
+  max-height: 400px; /* Limitar altura en pantallas grandes */
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .carousel img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  main{
+    padding: 0 !important;
+  }
+  .servicio-card,
+  .form-group {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  /* Formularios al 100% */
+  #contacto {
+    padding: 0 !important;
+  }
+}

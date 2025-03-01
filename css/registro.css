@@ -1,0 +1,89 @@
+/*cabecera*/
+
+header {
+  height: 20%;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand img.logo {
+  height: 64px;
+  width: auto; /*proporción del logo */
+  object-fit: contain;
+}
+
+footer {
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.6);
+}
+
+body {
+  background-color: #121212;
+
+}
+
+label{
+  margin-bottom: 0.8em;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+/* Estilos para el select */
+select.form-control {
+  background-color: #2a2a2a; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  border: 1px solid #444; /* Borde sutil */
+  padding: 10px;
+  border-radius: 5px;
+  appearance: none; /* Elimina el estilo predeterminado en algunos navegadores */
+  -webkit-appearance: none; /* Safari */
+  -moz-appearance: none; /* Firefox */
+  position: relative;
+  cursor: pointer;
+}
+
+/* Agregar una flechita manualmente */
+select.form-control {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+}
+
+/* Mejorar la apariencia cuando el select está enfocado */
+select.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Cambiar el color de las opciones */
+select.form-control option {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.form-control {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+.form-control::placeholder {
+  color: #bbbbbb;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

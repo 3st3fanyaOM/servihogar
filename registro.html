@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ServiHogar | Registro</title>
+  <meta name="author" content="Estefania Ortega" />
+  <!--autor-->
+  <link rel="shortcut icon floating" href="img/logo (2).png" type="image/x-icon floating" />
+  <!--favicon-->
+  <link rel="shortcut icon" href="./img/icons8-m-50.png" type="image/x-icon" />
+  <!--bootstrap cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <!--hoja de estilos personalizados-->
+  <link rel="stylesheet" href="./css/styles-responsive.css" />
+  <link rel="stylesheet" href="./css/registro.css" />
+  <!-- Iconos de Font Awesome-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+</head>
+<!-- Cabecera-->
+
+<header class="p-4 text-bg-dark" id="principal">
+  <div class="container-header"></div>
+  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+        <use xlink:href="#bootstrap" />
+      </svg>
+    </a>
+    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+      <li>
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/logotipo.png" alt="logo" class="logo" />
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</header>
+
+<body>
+  <div class="container">
+    <div class="form-container">
+      <form action="#">
+        <div class="form-group mb-3">
+          <label for="full_name_id">Nombre completo</label>
+          <input type="text" class="form-control" id="full_name_id" name="full_name"
+            placeholder="Escribe aquí tu nombre">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="street1_id">Calle</label>
+          <input type="text" class="form-control" id="street1_id" name="street1"
+            placeholder="Escribe aquí tu calle">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="street2_id">Número</label>
+          <input type="text" class="form-control" id="street2_id" name="street2"
+            placeholder="Número, piso, puerta...">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="city_id">Población</label>
+          <input type="text" class="form-control" id="city_id" name="city"
+            placeholder="Escribe aquí tu población">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="state_id">Provincia</label>
+          <select required name="provincia" class="form-control">
+            <option value="">Elige Provincia</option>
+            <option value="Álava/Araba">Álava/Araba</option>
+            <option value="Albacete">Albacete</option>
+            <option value="Alicante">Alicante</option>
+            <option value="Almería">Almería</option>
+            <option value="Asturias">Asturias</option>
+            <option value="Ávila">Ávila</option>
+            <option value="Badajoz">Badajoz</option>
+            <option value="Baleares">Baleares</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Burgos">Burgos</option>
+            <option value="Cáceres">Cáceres</option>
+            <option value="Cádiz">Cádiz</option>
+            <option value="Cantabria">Cantabria</option>
+            <option value="Castellón">Castellón</option>
+            <option value="Ceuta">Ceuta</option>
+            <option value="Ciudad Real">Ciudad Real</option>
+            <option value="Córdoba">Córdoba</option>
+            <option value="Cuenca">Cuenca</option>
+            <option value="Gerona/Girona">Gerona/Girona</option>
+            <option value="Granada">Granada</option>
+            <option value="Guadalajara">Guadalajara</option>
+            <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+            <option value="Huelva">Huelva</option>
+            <option value="Huesca">Huesca</option>
+            <option value="Jaén">Jaén</option>
+            <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Las Palmas">Las Palmas</option>
+            <option value="León">León</option>
+            <option value="Lérida/Lleida">Lérida/Lleida</option>
+            <option value="Lugo">Lugo</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Málaga">Málaga</option>
+            <option value="Melilla">Melilla</option>
+            <option value="Murcia">Murcia</option>
+            <option value="Navarra">Navarra</option>
+            <option value="Orense/Ourense">Orense/Ourense</option>
+            <option value="Palencia">Palencia</option>
+            <option value="Pontevedra">Pontevedra</option>
+            <option value="Salamanca">Salamanca</option>
+            <option value="Segovia">Segovia</option>
+            <option value="Sevilla">Sevilla</option>
+            <option value="Soria">Soria</option>
+            <option value="Tarragona">Tarragona</option>
+            <option value="Tenerife">Tenerife</option>
+            <option value="Teruel">Teruel</option>
+            <option value="Toledo">Toledo</option>
+            <option value="Valencia">Valencia</option>
+            <option value="Valladolid">Valladolid</option>
+            <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+            <option value="Zamora">Zamora</option>
+            <option value="Zaragoza">Zaragoza</option>
+          </select>
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="zip_id">Código Postal</label>
+          <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####">
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary w-100">Crear cuenta</button>
+        </div>
+      </form>
+    </div>
+  </div>
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white py-3">
+      <div class="container text-center text-md-start">
+        <div class="row">
+          <!-- Sección 1: Logo y Descripción -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h5 class="text-uppercase fw-bold mb-4">Servihogar</h5>
+            <p>
+              Soluciones innovadoras para tus necesidades. Comprometidos con la
+              calidad y el servicio.
+            </p>
+          </div>
+
+          <!-- Sección 2: Enlaces rápidos -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h5 class="text-uppercase fw-bold mb-4">Enlaces</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Inicio</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Servicios</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Nosotros</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Sección 3: Contacto -->
+          <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
+            <h5 class="text-uppercase fw-bold mb-4">Contacto</h5>
+            <p><i class="fas fa-home me-3"></i> Calle Francia 6, Sevilla</p>
+            <p><i class="fas fa-envelope me-3"></i> contacto@servihogar.com</p>
+            <p><i class="fas fa-phone me-3"></i> +954332211</p>
+          </div>
+
+          <!-- Sección 4: Redes sociales -->
+          <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mb-4">
+            <h5 class="text-uppercase fw-bold mb-4">Síguenos</h5>
+            <a href="#" class="text-white me-4"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="text-white me-4"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="text-white me-4"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-white me-4"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Línea de cierre -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2025 ServiHogar - Todos los derechos reservados.
+      </div>
+    </footer>
+</body>
+
+</html>

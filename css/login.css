@@ -1,0 +1,91 @@
+/*cuerpo*/
+body {
+  background: #212529;
+  font-family: "Montserrat-Medium", sans-serif;
+}
+
+/*fuente*/
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*contenedor login*/
+
+.rounded-3 {
+  border-radius: var(--bs-border-radius-lg) !important;
+  background-color: #203143;
+  color: white;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext {
+  padding: 1rem 0.75rem;
+  background-color: #1d1b1b;
+  color: #ffffff;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn.btn-google:hover {
+  color: white !important;
+  background-color: #97261c;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+
+.btn.btn-facebook:hover {
+  color: white !important;
+  background-color: #2d4373;
+}
+
+/*ojito contraseña*/
+#togglePassword i {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+#togglePassword:hover i {
+  color: #fff;
+}
+
+/*cabecera*/
+
+header {
+  height: 20%;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.text-end a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-brand img.logo {
+  height: 64px;
+  width: auto; /*proporción del logo */
+  object-fit: contain;
+}
+
+footer {
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.error-message {
+  display: none;
+}
