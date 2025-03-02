@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Mostrar detalles del servicio
     $(".info").click(function () {
-      var target = $(this).data("target");
+      var target = $(this).data("target"); //determinar que tarjeta se ha pulsado
       $("#servicios")
         .addClass("flex-mode ocultar-tarjetas")
         .find(".detalles-servicio")
@@ -136,20 +136,20 @@ document.addEventListener("DOMContentLoaded", function () {
     $("html, body").animate({ scrollTop: 0 }, "slow"); //cuando lo pulsas sube suavemente
   });
 
-  //comprobacion de campos vacios en login
-  $("input").on("blur", function () {
+  //comprobacion de campos vacios en login y contacto
+  $("input, textarea").on("blur", function () {
     console.log("test");
     if ($(this).val().trim() === "") {
       $(this).css({
         border: "2px solid #e91f1f",
       });
-      $(this).siblings(".error-message").show();
+      $(this).siblings(".error-message").show(); //muestra mensaje de error
     } else {
       $(this).css({
         border: "",
         "background-color": "",
       });
-      $(this).siblings(".error-message").hide();
+      $(this).siblings(".error-message").hide(); //oculta mensaje de error
     }
   });
 
@@ -208,7 +208,7 @@ document.addEventListener("DOMContentLoaded", function () {
       $mensajeEnviado.fadeIn();
       setTimeout(function () {
         $mensajeEnviado.fadeOut();
-      }, 5000); //mensaje de confirmación desaparece después de 3 segundos
+      }, 5000); //mensaje de confirmación desaparece después de 5 segundos
     }
   });
 

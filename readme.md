@@ -70,3 +70,18 @@
     #3B5998.
 
   - Fuente utilizada: Montserrat-regular (Google fonts).
+
+- **Comprobación de contraste**
+
+  ![alt text](./img/image.png)
+
+- **Comprobación accesibilidad**
+
+- Index
+  ![alt text](./img/image-1.png)
+
+- Login
+  ![alt text](./img/image-2.png)
+
+- Registro
+  ![alt text](./img/image-3.png)

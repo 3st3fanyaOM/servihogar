@@ -6,9 +6,9 @@ header {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
 
-.navbar-brand img.logo {
-  height: 64px;
-  width: auto; /*proporción del logo */
+.logo{
+  height: 5em;
+  width: auto;
   object-fit: contain;
 }
 
@@ -59,7 +59,9 @@ select.form-control {
 
 /* Mejorar la apariencia cuando el select está enfocado */
 select.form-control:focus {
+  background-color: #1e1e1e;
   border-color: #007bff;
+  color: #ffffff;
   outline: none;
 }
 
@@ -86,4 +88,8 @@ select.form-control option {
 
 .btn-primary:hover {
   background-color: #0056b3;
+}
+
+#cierre{
+  background-color: #121212;
 }
