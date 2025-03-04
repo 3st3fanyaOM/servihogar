@@ -12,6 +12,12 @@ body {
   font-style: normal;
 }
 
+.logo {
+  height: 5em;
+  width: auto;
+  object-fit: contain;
+}
+
 /*contenedor login*/
 
 .rounded-3 {

@@ -5,9 +5,20 @@
     box-sizing: border-box;
   }
 
+  #carouselExample {
+    height: 250px !important;
+  }
+
+  .servicio-card img{
+    width: 100%;
+    height: auto;
+  }
+
   .carousel img {
     width: 100%;
     object-fit: cover;
+    height: auto;
+    max-height: 250px;
   }
 
   main {
@@ -16,8 +27,7 @@
 
   .servicio-card,
   .form-group {
-    padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 0px;
   }
 
   /* Formularios al 100% */
@@ -26,5 +36,10 @@
   #registro {
     padding: 0 !important;
     border-radius: 0;
+  }
+
+  .container{
+    padding: 0 !important;
+    border-radius: 0px;
   }
 }
